@@ -2,13 +2,25 @@ class Carousel {
     constructor(element)
     {
         this.element = element;
-        this.leftButton = document.getElementsByClassName('left-button');
-        this.rightButton = document.getElementsByClassName('right-button');
+        this.leftButton = document.querySelector('.left-button');
+        this.rightButton = document.querySelector('.right-button');
+        this.images = document.querySelectorAll('img');
+        this.current = 0;
+
+        this.leftButton.addEventListener('click', () => this.left());
+        this.rightButton.addEventListener('click', () => this.right());
+
     }
 
 
 }
+left() {
 
+}
+
+right() {
+
+}
 let carousel = document.querySelector('.carousel');
 // let tabs = document.querySelectorAll('.tab').forEach(tab => new TabLink(tab));
 
