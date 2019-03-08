@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    answer: The DOM is something that can be used to access documents within the html and it can also be used to create dynamic html.
+
 2. What is an event?
+
+    answer: An event is executed when a user clicks on an HTML element.
 
 3. What is an event listener?
 
+    answer: An Event Listener executes when a specefic event is triggered.
+
 4. Why would we convert a NodeList into an Array?
 
+    answer: an array has more methods than a nodelist
+
 5. What is a component?
+
+    answer: Component is reusable code. An example of a component would be a button that can be reused.
 
 ### Git Set up
 
